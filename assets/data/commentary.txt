@@ -1,0 +1,191 @@
+mag:hit:{self.combat.attacker.name} used a dust storm on {self.combat.defender.name}. {self.combat.defender.name} takes the storm head on!
+mag:hit:{self.combat.attacker.name} is charging up their magic! They sent the fireball flying at {self.combat.defender.name} making contact! 
+mag:hit:{self.combat.attacker.name} lit the ground under {self.combat.defender.name} with fire!
+mag:hit:{self.combat.attacker.name} has summoned a tiny servant to help out! {self.combat.defender.name} defeats the tiny servant but takes damage in the conflict!
+mag:hit:{self.combat.attacker.name} has summoned an elemental bow made of fire! {self.combat.attacker.name} makes a direct hit on {self.combat.defender.name}!
+mag:hit:{self.combat.attacker.name} has summoned an elemental bow made of ice! {self.combat.attacker.name} makes a direct hit on {self.combat.defender.name}!
+mag:hit:{self.combat.attacker.name} has summoned an elemental bow made of lighting! {self.combat.attacker.name} makes a direct hit on {self.combat.defender.name}!
+mag:hit:{self.combat.attacker.name} has summoned an elemental bow made of stone! {self.combat.attacker.name} makes a direct hit on {self.combat.defender.name}!
+mag:hit:{self.combat.attacker.name} has summoned an elemental bow made of light! {self.combat.attacker.name} makes a direct hit on {self.combat.defender.name}!
+mag:hit:{self.combat.attacker.name} has summoned an elemental bow made of acid! {self.combat.attacker.name} makes a direct hit on {self.combat.defender.name}!
+mag:hit:{self.combat.attacker.name} has summoned an elemental bow made of shadow! {self.combat.attacker.name} makes a direct hit on {self.combat.defender.name}!
+mag:hit:{self.combat.attacker.name} surrounds their first in fire and punches {self.combat.defender.name}!
+mag:hit:{self.combat.attacker.name} surrounds their first in ice and punches {self.combat.defender.name}!
+mag:hit:{self.combat.attacker.name} surrounds their first in lighting and punches {self.combat.defender.name}!
+mag:hit:{self.combat.attacker.name} surrounds their first in stone and punches {self.combat.defender.name}!
+mag:hit:{self.combat.attacker.name} surrounds their first in light and punches {self.combat.defender.name}!
+mag:hit:{self.combat.attacker.name} surrounds their first in acid and punches {self.combat.defender.name}!
+mag:hit:{self.combat.attacker.name} surrounds their first in shadow and punches {self.combat.defender.name}!
+mag:hit:{self.combat.attacker.name} summons a fire flair! {self.combat.defender.name} takes the hit on their side leaving a permanant mark!
+mag:hit:{self.combat.attacker.name} summons an ice mace! {self.combat.defender.name} takes a hit to the head but the ice shatters on impact!
+mag:hit:{self.combat.attacker.name} summons a lighting dagger! {self.combat.attacker.name} stabs {self.combat.defender.name} in the leg causing shock damage through their body!
+mag:hit:{self.combat.attacker.name} summons a stone club! {self.combat.attacker.name} swings the club! {self.combat.defender.name} blocks the strinke but still takes damage!
+mag:hit:{self.combat.attacker.name} summons a sword made of light! {self.combat.attacker.name} slices {self.combat.defender.name}'s chest with the sword!
+mag:hit:{self.combat.attacker.name} summons an acid spear! {self.combat.attacker.name} throws the sprear at {self.combat.defender.name} striking them in the thigh!
+mag:hit:{self.combat.attacker.name} summons a shadow axe! {self.combat.defender.name} takes the hit leaving them with a gash in their stomach!
+mag:hit:{self.combat.attacker.name} uses levitate and lifts {self.combat.defender.name} off the round before dropping them! {self.combat.defender.name} falls to the ground!
+mag:hit:{self.combat.attacker.name} used acid rain on {self.combat.defender.name}! {self.combat.defender.name}'s skin is now melting!
+mag:hit:{self.combat.attacker.name} uses mind control on {self.combat.defender.name}! {self.combat.defender.name} strikes themselves with a rock!
+mag:hit:{self.combat.attacker.name} uses peircing whistle causing {self.combat.defender.name} to bleed from the ears!
+mag:hit:{self.combat.attacker.name} uses magic to life the earth from under {self.combat.defender.name} causing them to flip off the ground!
+mag:hit:{self.combat.attacker.name} sends a storm of rocks flying towards {self.combat.defender.name}! {self.combat.defender.name} avoids some of the attack but still takes damage!
+mag:hit:{self.combat.attacker.name} uses levitate on themselves allowing them to do a flying drop kick on {self.combat.defender.name} from an impressive height!
+mag:hit:{self.combat.attacker.name} uses a flash of light blinding {self.combat.defender.name} leaving {self.combat.defender.name} wide open! {self.combat.attacker.name} kicks {self.combat.defender.name} in the face while they are stunned!
+mag:hit:{self.combat.attacker.name} summons a swarm of birds to attack {self.combat.defender.name}! {self.combat.defender.name} is left helpless as the birds pick at their skin!
+mag:hit:{self.combat.attacker.name} uses elemental breath sending a burst of ice towards {self.combat.defender.name}! {self.combat.defender.name} has breifly become frozen!
+mag:hit:{self.combat.attacker.name} uses elemental breath sending a burst of fire towards defender! {self.combat.defender.name} can not block the attack takes several severe burnrs!
+mag:hit:{self.combat.attacker.name} uses elemental breath sending a burst of acid towards defender! {self.combat.defender.name} takes serious burns to their body!
+mag:hit:{self.combat.attacker.name} uses water whip and strikes {self.combat.defender.name}'s chest!
+mag:hit:{self.combat.attacker.name} uses shapeshift to grow their muscles dealing serious damge to {self.combat.defender.name}!
+mag:hit:{self.combat.attacker.name} summons a wind elemental! The elemental lands a single heavy strike on {self.combat.defender.name} before dissapearing!
+mag:hit:{self.combat.attacker.name} summons a whirlwind and sends it flying towards {self.combat.defender.name}! {self.combat.defender.name} gets caught in the whirlwind!
+mag:hit:{self.combat.attacker.name} uses levitate and rises parts of the arena sending them flying towards {self.combat.defender.name}! {self.combat.defender.name} can not block the attack!
+mag:hit:{self.combat.attacker.name} forms a large sphere of water and sends its flying towards {self.combat.defender.name}! {self.combat.defender.name} gets caught in the water!
+mag:hit:{self.combat.attacker.name} creates a water cannon and blasts {self.combat.defender.name} with it before {self.combat.defender.name} has a chance to escape!
+mag:hit:{self.combat.attacker.name} finds a battering ram on the ground! {self.combat.attacker.name} uses levitate to lunge the battering ram at {self.combat.defender.name} and successfully connects!
+mag:hit:{self.combat.attacker.name} uses water missle! {self.combat.defender.name} can not block in time and takes the hit!
+mag:hit:{self.combat.attacker.name} uses water jets! The jets blast up from below {self.combat.defender.name} launching them into the air!
+mag:hit:{self.combat.attacker.name} uses water slash! The hit connects and {self.combat.defender.name} is left with a slash across their face!
+mag:hit:{self.combat.attacker.name} uses encapsulation to close in the walls on {self.combat.defender.name}! {self.combat.attacker.name} has closed the walls completely crushing {self.combat.defender.name}
+mag:hit:_
+mag:hit:_
+
+mag:miss:{self.combat.attacker.name} uses magic missle but {self.combat.defender.name} jumps out of the way!
+mag:miss:{self.combat.attacker.name} summons a bow made of ice and fires at {self.combat.defender.name}! {self.combat.defender.name} blocks the shot with a fire shield!
+mag:miss:{self.combat.attacker.name} summons a tiny servant! The tiny servant is too small and has no affect on {self.combat.defender.name}!
+mag:miss:{self.combat.attacker.name} summons a tornado! {self.combat.defender.name} does not have to do much as the tornado goes into the wrong direction, entirely missing {self.combat.defender.name}!
+mag:miss:{self.combat.attacker.name} uses mind control on {self.combat.defender.name} but misses! An audience member has cut their own foot off in the confusion!
+mag:miss:{self.combat.attacker.name} uses shapeshift to grow their muscles! {self.combat.attacker.name} is now too slow and can not make a hit on {self.combat.defender.name}
+mag:miss:{self.combat.attacker.name} summons a sword made of light! {self.combat.defender.name} blocks the attack with a shadow shield, consuming the light sword!
+mag:miss:_
+mag:miss:_
+
+mag:critical:{self.combat.attacker.name} briefly turned into an wolverine and is now nawing at {self.combat.defender.name}'s neck! That is a big loss for {self.combat.defender.name}! 
+mag:critical:{self.combat.attacker.name} used catapult and sent {self.combat.defender.name} flying across the arena taking serious damage!
+mag:critical:{self.combat.attacker.name} has shoved a fireball down {self.combat.defender.name}'s throat! That's a ciritcal hit for {self.combat.defender.name}!
+mag:critical:{self.combat.attacker.name} is forming an ice spike! {self.combat.attacker.name} fires the shot and hits {self.combat.defender.name} piercing them through the stomach!
+mag:critical:{self.combat.attacker.name} struck {self.combat.defender.name} with a bolt of lightning! {self.combat.defender.name} takes serious damage from that one!
+mag:critical:{self.combat.attacker.name} has summoned a tornado of fire and is sending it towards {self.combat.defender.name}! {self.combat.defender.name} gets picked up the storm! 
+mag:critical:{self.combat.attacker.name} used acid river on {self.combat.defender.name}! {self.combat.defender.name} is struggling to escape the river!
+mag:critical:{self.combat.attacker.name} uses earthbind on {self.combat.defender.name} crushing several bones in the process!
+mag:critical:{self.combat.attacker.name} briefly turns into a bear and mauls {self.combat.defender.name}!
+mag:critical:{self.combat.attacker.name} floods the arena with water nearly drowning {self.combat.defender.name}!
+mag:critical:{self.combat.attacker.name} sets the arena abalze! {self.combat.defender.name} has nowhere to go and takes serious damage!
+mag:critical:{self.combat.attacker.name} uses friends on {self.combat.defender.name}! {self.combat.attacker.name} has convinced {self.combat.defender.name} to step into a catapult. {self.combat.defender.name} gets launched by the catapult!
+mag:critical:{self.combat.attacker.name} summons a black hole and sucks {self.combat.defender.name} into it! {self.combat.defender.name} takes serious damage!
+mag:critical:{self.combat.attacker.name} uses mind control and forces {self.combat.defender.name} to cut off their own hand!
+mag:critical:{self.combat.attacker.name} surrounds {self.combat.defender.name} with spears made of all elements! {self.combat.defender.name} gets bombarded by the spears and can not defend!
+mag:critical:{self.combat.attacker.name} uses death stare! {self.combat.defender.name} falls to the ground taking serious damage!
+mag:critical:{self.combat.attacker.name} summons a giant onto the field! The giant punches {self.combat.defender.name}, it's fist covering {self.combat.defender.name}'s entire body! The giant has left the field!
+mag:critical:_
+mag:critical:_
+mag:critical:_
+
+phys:hit:{self.combat.attacker.name} has put {self.combat.defender.name} to the ground and has slammed their head against the ground!
+phys:hit:{self.combat.defender.name} is charing {self.combat.attacker.name} but, {self.combat.attacker.name} has thrown mouse traps on the ground! {self.combat.defender.name} ran right into the traps!
+phys:hit:{self.combat.attacker.name} has picked up {self.combat.defender.name} and is spinning them by a single leg! {self.combat.defender.name} has been flung across the arena!
+phys:hit:{self.combat.attacker.name} has taken a knife from their boot and stabbed {self.combat.defender.name} in the leg!
+phys:hit:{self.combat.attacker.name} punches {self.combat.defender.name} in the face, stunning {self.combat.defender.name}!
+phys:hit:{self.combat.attacker.name} finds a sword on the ground and slices {self.combat.defender.name} cutting their arm open!
+phys:hit:{self.combat.attacker.name} finds a spear on the ground and throws it at {self.combat.defender.name}! {self.combat.defender.name} takes the hit and the spear is stuck inside of them!
+phys:hit:{self.combat.attacker.name} trips {self.combat.defender.name} and using the chance to stomp on their chest!
+phys:hit:{self.combat.attacker.name} finds a gun and throws it at {self.combat.defender.name} hitting them in the head!
+phys:hit:{self.combat.attacker.name} finds a club on the ground and strikes {self.combat.defender.name} with it!
+phys:hit:{self.combat.attacker.name} tackles {self.combat.defender.name}! While they're both on the ground {self.combat.attacker.name} finds a rock and smashes {self.combat.defender.name}'s face!
+phys:hit:{self.combat.attacker.name} uses a net on {self.combat.defender.name}! {self.combat.attacker.name} beats {self.combat.defender.name} with a club as they struggle to escape the net!
+phys:hit:{self.combat.attacker.name} points to the east and distracts {self.combat.defender.name}! {self.combat.attacker.name} punches {self.combat.defender.name} in the back of the head while they're distracted!
+phys:hit:{self.combat.attacker.name} finds a sword on the ground and slices {self.combat.defender.name} cutting their leg open!
+phys:hit:{self.combat.attacker.name} finds a sword on the ground and slices {self.combat.defender.name} cutting their chest open!
+phys:hit:{self.combat.attacker.name} finds a sword on the ground and slices {self.combat.defender.name} cutting their cheek open!
+phys:hit:{self.combat.attacker.name} finds a mace on the ground and strikes {self.combat.defender.name} in the stomach!
+phys:hit:{self.combat.attacker.name} finds a mace on the ground and strikes {self.combat.defender.name} in the head!
+phys:hit:{self.combat.attacker.name} finds a mace on the ground and strikes {self.combat.defender.name} in the legs!
+phys:hit:{self.combat.attacker.name} has removed {self.combat.defender.name}'s boot and beats {self.combat.defender.name} with their own boot!
+phys:hit:{self.combat.defender.name} charges {self.combat.attacker.name}! {self.combat.attacker.name} stabs a spear into {self.combat.defender.name}'s foot!
+phys:hit:{self.combat.defender.name} charges {self.combat.attacker.name}! {self.combat.attacker.name} stops the charge by throwing a spear into their shoulder!
+phys:hit:{self.combat.attacker.name} pulls a knife from their boot and stabs {self.combat.defender.name} through the cheek!
+phys:hit:{self.combat.attacker.name} arms themselves with a club and goes for the strike! {self.combat.defender.name} takes the hit!
+phys:hit:{self.combat.attacker.name} grabs a broken bottle from the ground! {self.combat.attacker.name} successfully stabs {self.combat.defender.name} with the bottle!
+phys:hit:{self.combat.attacker.name} finds a removed limb from the arena and beats {self.combat.defender.name} with it!
+phys:hit:{self.combat.attacker.name} kicks {self.combat.defender.name} in the face!
+phys:hit:{self.combat.attacker.name} uses smoke bombs to distract {self.combat.defender.name}! {self.combat.defender.name} can not see and {self.combat.attacker.name} lands a clean strike on them in the midst of the smoke!
+phys:hit:{self.combat.attacker.name} throws caltrops under {self.combat.defender.name}'s feet causing them to step on several of them!
+phys:hit:{self.combat.attacker.name} finds some rope on the ground and uses it to trip {self.combat.defender.name}!
+phys:hit:{self.combat.attacker.name} places caltrops into the sould of their boot before landing a successful kick on {self.combat.defender.name}!
+phys:hit:{self.combat.defender.name} swings towards {self.combat.attacker.name}! {self.combat.attacker.name} grabs {self.combat.defender.name}'s hand before it lands and hatters the bones inside!
+phys:hit:{self.combat.attacker.name} pulled a knife from their boot! They threw it at {self.combat.defender.name} and completely missed!
+phys:hit:{self.combat.attacker.name} is going for a tackle! And takes {self.combat.defender.name} down with the tackle!
+phys:hit:{self.combat.attacker.name} is armed with a spear going for an attack! {self.combat.attacker.name} successfully stands {self.combat.defender.name} in the hand!
+phys:hit:{self.combat.attacker.name} found a flair on the ground and is going for the strike! {self.combat.defender.name} takes the attack leaving them with a deep wound!
+phys:hit:{self.combat.attacker.name} punches {self.combat.defender.name}!
+phys:hit:{self.combat.attacker.name} jumps into the air aiming a flying jump kick at {self.combat.defender.name}! {self.combat.defender.name} gets hit in the face by the kick!
+phys:hit:_
+phys:hit:_
+
+phys:miss:{self.combat.attacker.name} pulled a knife from their boot! They threw it at {self.combat.defender.name} and completely missed!
+phys:miss:{self.combat.attacker.name} is going for a tackle! And {self.combat.defender.name} jumps out of the way at the last second!
+phys:miss:{self.combat.attacker.name} is armed with a spear going for an attack! {self.combat.defender.name} has completely disarmed {self.combat.attacker.name}!
+phys:miss:{self.combat.attacker.name} found a flair on the ground and going for the strike! {self.combat.defender.name} avoids the attack!
+phys:miss:{self.combat.attacker.name} finds a grenade on the ground! After throwing the grenade it does not explode as {self.combat.attacker.name} never removed the pin!
+phys:miss:{self.combat.attacker.name} punches at {self.combat.defender.name}! {self.combat.defender.name} ducks and completely avoids the punch!
+phys:miss:{self.combat.attacker.name} finds a battering ram on the ground! {self.combat.attacker.name} can not lift the battering ram!
+phys:miss:{self.combat.attacker.name} jumps into the air aiming a flying jump kick at {self.combat.defender.name}! {self.combat.defender.name} steps out of the way and avoids the attack!
+phys:miss:_
+phys:miss:_
+
+phys:critical:{self.combat.attacker.name} has used a knife from their boot and stabbed {self.combat.defender.name} in the neck!
+phys:critical:That's a critical hit! {self.combat.attacker.name} grabbed a mace off the ground and smashed it on {self.combat.defender.name}'s head!
+phys:critical:{self.combat.attacker.name} grabs {self.combat.defender.name}'s foot! And {self.combat.attacker.name} has completely ripped their foot off! That is some serious damage!
+phys:critical:{self.combat.attacker.name} has found a cannon on the field! {self.combat.defender.name} tries to avoid it but takes a direct hit from the cannon!
+phys:critical:{self.combat.attacker.name} grabs {self.combat.defender.name} by the hair and is spinning them by the hair! {self.combat.attacker.name} slams {self.combat.defender.name} on the ground!
+phys:critical:{self.combat.attacker.name} finds a catapult and launches a bolder at {self.combat.defender.name}! {self.combat.defender.name} is crushed by the bolder!
+phys:critical:{self.combat.attacker.name} grabs {self.combat.defender.name} by the head and uses their thumb to gouge their eye out!
+phys:critical:{self.combat.attacker.name} finds a grenade on the ground! The blast from the grenade is massive as {self.combat.defender.name} gets thrown by the explosion!
+phys:critical:_
+phys:critical:_
+
+end:{self.combat.defender.name} is down and {self.combat.attacker.name} takes the round!!
+end:{self.combat.defender.name} is out! Looks like {self.combat.attacker.name} is the winner!
+end:{self.combat.attacker.name} Has taken the round!
+end:{self.combat.defender.name} is done for! {self.combat.attacker.name} is going to be moving onward!
+end:{self.combat.attacker.name} has won the match! {self.combat.defender.name} will not be moving onward!
+end:That was the final blow! {self.combat.defender.name} is out and {self.combat.attacker.name} stands victorious!
+end:That is it! {self.combat.attacker.name} has officially taken the round!
+end:{self.combat.defender.name} has been defeated! {self.combat.attacker.name} will be moving onward!
+end:{self.combat.attacker.name} is standing victorious as {self.combat.defender.name} lays in defeat!
+end:That is the finishing blow of this match! {self.combat.attacker.name} is victorious! 
+end:What an outstanding match! {self.combat.defender.name} has been defeated!
+end:The winner is {self.combat.attacker.name}!
+end:Can you believe it? {self.combat.defender.name} has been defeated!
+end:Can you believe it? {self.combat.attacker.name} comes out on top!
+end:That is it! {self.combat.defender.name} is down and can not continue!
+end:That is the last attack of the round! {self.combat.defender.name} has been taken down!
+end:{self.combat.defender.name} has been taken down! {self.combat.attacker.name} Is taking the round!
+end:{self.combat.attacker.name} comes out on top! {self.combat.defender.name} is down for the count!
+end:{self.combat.defender.name} is down for the count! {self.combat.attacker.name} stands victorious!
+end:{self.combat.defender.name} is not getting back up after that attack! {self.combat.attacker.name} is victorious!
+end:{self.combat.attacker.name} has landed the final blow! {self.combat.defender.name} is not getting back up!
+end:_
+end:_
+
+first strike:{self.combat.attacker.name} takes the initiative!
+first strike:{self.combat.defender.name} falls back as {self.combat.attacker.name} makes the first strike!
+first strike:{self.combat.attacker.name} takes the lead as they go for the first strike!
+first strike:{self.combat.defender.name} is falling behind as they embrace for a strike from {self.combat.attacker.name}!
+first strike:{self.combat.attacker.name} is going full force from the start as they make the first move!
+first strike:{self.combat.attacker.name} comes in charging at {self.combat.defender.name} ready to strike!
+first strike:{self.combat.defender.name} has immedietly tripped on rubble giving the advantage to {self.combat.attacker.name}!
+first strike:{self.combat.defender.name} is not quick enough, {self.combat.attacker.name} takes the initiative!
+first strike:{self.combat.attacker.name} is taking the first strike!
+first strike:{self.combat.defender.name} feels intimidated by {self.combat.attacker.name} allowing {self.combat.attacker.name} to take the advantage!
+first strike:{self.combat.attacker.name} gains the advantage as they go in for the first strike!
+first strike:{self.combat.attacker.name} wastes no time and charges in as {self.combat.defender.name} braces for attack!
+first strike:{self.combat.defender.name} seems to be confused! {self.combat.attacker.name} takes advantage to get the first strike!
+first strike:{self.combat.attacker.name} used time stop to close the gap and get the first strike advantage!
+first strike:{self.combat.defender.name} braces for a strike as the allow {self.combat.attacker.name} to take the first strike!
+first strike:{self.combat.attacker.name} moves quick and is able to take the first strike of the battle!
+first strike:{self.combat.attacker.name} comes out ready to battle as the make the first move!
+first strike:{self.combat.attacker.name} uses light the blind {self.combat.defender.name} allowing {self.combat.attacker.name} to get the first strike!
+first strike:{self.combat.attacker.name} charges up and is taking the first strike!
+first strike:{self.combat.attacker.name} leads the battle as they make the first strike!
+first strike:{self.combat.defender.name} goes into the defensive as the prepare to be attacked!
