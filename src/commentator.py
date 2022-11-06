@@ -1,12 +1,14 @@
 import os
 
+# sets root directory for ease of access to commentary.py
 ROOT_DIR = os.path.join(os.path.dirname(__file__), "..")
 
+# takes contents of commentary.txt and stores it as a single list
 with open(os.path.join(ROOT_DIR, "assets", "data", 'commentary.txt'), 'r') as file:
     string_stream = file.read()
     string_stream = string_stream.split('\n')
 
-
+# initialize empty lists
 first_strike_commentary = []
 magic_crit = []
 magic_hit = []
@@ -15,7 +17,8 @@ physical_crit = []
 physical_hit = []
 physical_miss = []
 winner_commentary = []
-# stores commentary in appropriate lists
+
+# stores commentary in appropriate lists based on start of the string
 for i in string_stream:
     if ':_' in i:
         continue
