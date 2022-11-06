@@ -3,7 +3,7 @@ class Gambler:
         self.gold = 100
         self.bet = 0
         self.combatant_bet_on = None
-
+    # checks if user would like to place a bet
     def place_bet(self, combatant1, combatant2):
         gamble = input('Would you like to place a bet? Please enter "yes" or "no": ')
         if 'y' in gamble.lower():
@@ -23,7 +23,7 @@ class Gambler:
                     self.gold -= self.bet
                     break
                 print(f"Sorry, {self.bet} is not in range your gold range")
-
+    # updates gold based on earnings from match
     def update_gold(self, winner):
         if self.bet == 0:
             return

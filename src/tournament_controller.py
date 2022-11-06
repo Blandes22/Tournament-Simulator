@@ -34,18 +34,24 @@ class Tournament:
         self.draw_vs_screen()
         self.__bet()
 
+    # traverses tree to find entrants going into next battle
     def __get_combatants(self):
         self.__traverse_bracket(self.bracket.tree.root)
+        #declares combat with combatants fround from __traverse_bracket()
         self.combat = Combat(self.combatant1, self.combatant2)
 
     def __traverse_bracket(self, node):
+        # prunes search function goes too deep or if a combatant is found
         if self.combatant1 or self.current_level > self.level:
             return
+        # update the search level (current_level) and check left and right nodes
         self.current_level += 1
-        if node.left.value.name == "TBD":
+        # if either node is a PlaceHolder obj from entrant.py, continue the search donw the tree
+        if isinstance(node.left.value, PlaceHolder):
             self.__traverse_bracket(node.left)
-        if node.right.value.name == "TBD":
+        if isinstance(node.right.value, PlaceHolder):
             self.__traverse_bracket(node.right)
+        # Check if entrants exist on current nodes left and right values and if the current level is where it should be
         if (
         isinstance(node.left.value, Entrant) and 
         isinstance(node.right.value, Entrant) and 
@@ -53,9 +59,11 @@ class Tournament:
         ):
             self.combatant1 = node.left
             self.combatant2 = node.right
+        # if no entrants are found this will help track which level the bracket search is on
         self.current_level -= 1
     
     def __bet(self):
+        # if the user has gold to bet:
         if self.gambler.gold >= 1:
             self.gambler.show_gold()
             self.gambler.place_bet(self.combatant1, self.combatant2)
@@ -63,12 +71,17 @@ class Tournament:
             input("Sorry, you do not have any money to bet.\nPlease press enter to continue: ")
 
     def battle_phase(self):
+        # set to true, will become false if a combatant is defeated
         continue_combat = True
         self.__battle_begin_commentary()
+        # combat loop
         while continue_combat:
+            # check combat.py for info on this function
             dmg, atk_success, atk_type = self.combat.attack() # type: ignore
+            # sleep only used to make combat more interesting 
             sleep(3.5)
             self.__turn_commentary(atk_type, atk_success)
+            # checks if either combatant has been defeated
             continue_combat = self.combat.check_and_update(dmg) # type: ignore
         sleep(3.5)
         self.__match_end_commentary()
@@ -78,16 +91,25 @@ class Tournament:
         self.__update_bracket()
 
     def __update_bracket(self):
-        self.battles_remaining_in_level -= 1 
+        # a level is a tier in the bracket, this is used for functionality of __traverse_bracket()
+        self.battles_remaining_in_level -= 1
+        # if no more battles remain in the tier
         if self.battles_remaining_in_level == 0:
+            # update level to prevent __traverse_bracket() from going too deep in the bracket
             self.level -= 1
+            # each tier holds a number of battles that is a power of 2 
+            # This sets the battles so the program knows how many battles remain before updating level
             self.battles_remaining_in_level = (2 ** (self.level - 2))
+        # gets the previous node from the combatants
         node = self.combatant1.previous # type: ignore
+        # sets the nodes value to that of the winner
         node.value = self.combat.attacker # type: ignore
+        # checks which node was the defender (loser of combat) and marks them as ELIMINATED
         if node.left.value == self.combat.defender: # type: ignore
             node.left.value = PlaceHolder("ELIMINATED")
         else:
             node.right.value = PlaceHolder("ELIMINATED")
+        # resets variables
         self.combatant1 = None
         self.combatant2 = None
         self.current_level = 1
@@ -103,7 +125,8 @@ class Tournament:
     # eval() used in the functions below to treat commentary as an fstring
     def __battle_begin_commentary(self):
         print(eval('f"' + np.random.choice(commentator.first_strike_commentary) + '"'))
-
+    
+    # checks which type of commentary to use based on attack_type and attack_success 
     def __turn_commentary(self, attack_type, attack_success):
         if attack_type == 'magic':
             if attack_success == 'critical':
